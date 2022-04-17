@@ -1,4 +1,5 @@
 import scipy.stats
+import numpy as np
 
 def power_anova_test(groups=None, n=None, between_var=None, within_var=None, sig_level=0.05, power=None):
     if power == None:
